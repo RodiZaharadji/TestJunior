@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     'rest_framework',  # rest apps
     'apps.users',
     'apps.products',
+    'apps.wishlists',
 ]
 
 MIDDLEWARE = [

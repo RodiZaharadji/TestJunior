@@ -14,4 +14,6 @@ urlpatterns = [
     path('auth-token', jwt_views.TokenObtainPairView.as_view()),  # auth endpoint
     path('auth-token/refresh', jwt_views.TokenRefreshView.as_view()),  # token refresh endpoint
     path('users/', include('apps.users.urls')),
+    path('products/', include('apps.products.urls')),
+    path('wishlists/', include('apps.wishlists.urls')),
 ]
